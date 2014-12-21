@@ -144,6 +144,7 @@ NeoBundle 'danro/rename.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'begriffs/haskell-vim-now'
+NeoBundle 'bronson/vim-trailing-whitespace'
 
 call neobundle#end()
 

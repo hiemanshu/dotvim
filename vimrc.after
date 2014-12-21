@@ -1,13 +1,11 @@
-set background=dark
 colorscheme peaksea
+set background=dark
 
 set relativenumber
 
 map <leader>zw :ZoomWin<CR>
 
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
-
-map K <Plug>(expand_region_expand)
 
 map <Leader>P :set paste<CR>o<esc>"*]p:set nopaste<cr>"
 
@@ -33,6 +31,11 @@ nnoremap <M-j> ]e
 " Bubble multiple lines
 vmap <M-k> [egv
 vmap <M-j> ]egv
+
+nmap <Leader>d :Dispatch
+nmap <Leader>c :Start rails console<CR>
+" Complete terms from all buffers
+set complete=.,w,b,u,t,i
 
 set noerrorbells
 set novisualbell
