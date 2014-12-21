@@ -134,6 +134,17 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
 
+"My custom bundles
+NeoBundle 'vim-scripts/peaksea'
+NeoBundle 'jeetsukumaran/vim-buffergator'
+NeoBundle 'regedarek/ZoomWin'
+NeoBundle 'terryma/vim-expand-region'
+NeoBundle 'bronson/vim-visual-star-search'
+NeoBundle 'danro/rename.vim'
+NeoBundle 'tpope/vim-unimpaired'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'begriffs/haskell-vim-now'
+
 call neobundle#end()
 
 filetype plugin indent on
