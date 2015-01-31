@@ -1,3 +1,17 @@
+autocmd CursorHold * call Timer()
+function! Timer()
+    call feedkeys("f\e")
+    checktime
+endfunction
+autocmd CursorHoldI * call TimerI()
+function! TimerI()
+    call feedkeys("\<C-R>\e")
+    checktime
+endfunction
+set updatetime=5000  " milliseconds
+
+
+
 colorscheme peaksea
 set background=dark
 
