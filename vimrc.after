@@ -10,10 +10,7 @@ function! TimerI()
 endfunction
 set updatetime=5000  " milliseconds
 
-
-
-colorscheme peaksea
-set background=dark
+colorscheme Monokai
 
 set relativenumber
 
@@ -144,4 +141,7 @@ set wildignore+=*.swp,*~,._*
 set backupdir^=~/.vim/_backup//    " where to put backup files.
 set directory^=~/.vim/_temp//      " where to put swap files.
 
+autocmd BufWritePre * :%s/\s\+$//e
 
+set guifont=Hermit:h13
+set guioptions-=L

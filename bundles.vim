@@ -145,6 +145,9 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'begriffs/haskell-vim-now'
 NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'mustache/vim-mustache-handlebars'
+NeoBundle 'xolox/vim-colorscheme-switcher'
+NeoBundle 'xolox/vim-misc'
 
 call neobundle#end()
 
