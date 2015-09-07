@@ -10,7 +10,8 @@ function! TimerI()
 endfunction
 set updatetime=5000  " milliseconds
 
-colorscheme Monokai
+set background=dark
+colorscheme solarized
 
 set relativenumber
 
