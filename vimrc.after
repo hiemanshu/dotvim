@@ -66,9 +66,6 @@ set nobackup
 set nowb
 set noswapfile
 
-
-
-
 set ai "Auto indent
 set si "Smart indent
 
@@ -146,3 +143,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 set guifont=Hermit:h13
 set guioptions-=L
+
