@@ -11,7 +11,9 @@ endfunction
 set updatetime=5000  " milliseconds
 
 set background=dark
-colorscheme solarized
+
+colorscheme Monokai-chris
+AirlineTheme wombat
 
 set relativenumber
 
@@ -143,4 +145,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 set guifont=Hermit:h13
 set guioptions-=L
-
+set expandtab
